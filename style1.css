@@ -1,0 +1,17 @@
+h3{
+    font-size: 200%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: rgb(146, 166, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+td{
+    background-color: rgb(211, 230, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+border-radius: 1%;
+align-content: center;
+}

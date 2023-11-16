@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandofBoxes</title>
+    <link rel = "stylesheet" href = "style1.css"></linkrel>
+</head>
+<body>
+    <h3 align="center"><b>Land of Boxes</b></h3>
+    <table border="1" align = "center" cellpadding="6" cellspacing="5">
+        <tr>
+            <th colspan="3">Customer Information</th>
+        </tr>
+        <tr>
+            <td>Name</td> <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Address</td> <td colspan="2"><textarea name = "Address"></textarea></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td> <td colspan="2"><input type ="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td> <td colspan="2"><input type = "email"></td>
+        </tr>
+        <tr>
+        <th colspan="3">Product Information</th>
+        </tr>
+        <tr>
+            <td>Product Name</td> 
+            <td colspan="2">
+                <select name="Products">
+                    <option value="">select product</option>
+                    <option value = "The EconoBox: Cost R5">The EconoBox: Cost R5</option>
+                    <option value = "The Standard Box: Cost R10">The Standard Box: Cost R10</option>
+                    <option value = "The Premium Box: Cost R15">The Premium Box: Cost R15</option>
+                    <option value = "The Deluxe Box: Cost R20">The Deluxe Box: Cost R20</option>
+                    <option value = "The Super Deluxe Box:. Cost R30">The Super Deluxe Box:. Cost R30</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+           <td>Product number</td> <td><input type = "number"><td>
+        </tr>
+        <tr>
+            <td>Price</td> <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Produt Quantity</td> <td colspan="2"><input type = "number"></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                Payment Details
+            </th>
+        </tr>
+        <tr>
+            <td>Method of Payment</td> <td colspan="2"><input type ="radio">Debit card <input type ="radio">Credit card</td>
+        </tr>
+        <tr>
+            <td>Card Details & Expiry</td> <td><input type="text"Placeholder="Card Holder Name"></td> <td><input type = "date" placeholder="Expiry Date"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Biling Address</td> <td colspan="2"><textarea name = "Address"></textarea></td> 
+        </tr>
+        <tr>
+           <td colspan="2"><input type ="radio">Same As above</td>
+        </tr>
+    </table>
+</body>
+</html>
